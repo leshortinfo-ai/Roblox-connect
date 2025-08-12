@@ -1,0 +1,10 @@
+:root { --bg:#0f1724; --card:#0b1220; --accent:#3b82f6; --text:#e6eef8; }
+body{font-family:Inter, Arial, sans-serif;background:linear-gradient(180deg,#071024 0%, #0b1524 100%);color:var(--text);margin:0;padding:40px;display:flex;justify-content:center}
+.container{width:100%;max-width:780px}
+h1{text-align:center;margin-bottom:18px}
+.search{display:flex;gap:8px;justify-content:center;margin-bottom:18px}
+input{padding:10px 12px;border-radius:8px;border:1px solid rgba(255,255,255,0.06);min-width:280px;background:#071022;color:var(--text)}
+button{padding:10px 14px;border-radius:8px;border:none;background:var(--accent);color:white;cursor:pointer}
+.result{margin-top:16px;background:rgba(255,255,255,0.02);padding:16px;border-radius:10px;text-align:center}
+.result img{border-radius:50%;width:120px;height:120px;object-fit:cover;display:block;margin:8px auto}
+.small{font-size:13px;color:rgba(230,238,248,0.7)}
